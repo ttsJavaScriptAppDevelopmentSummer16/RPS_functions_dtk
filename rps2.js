@@ -13,7 +13,7 @@ var player1 = {
 }
 
 var player2 = {
-	name: "Jessica",
+	name: "Yassi",
 	getHand: function() {
 		var random = parseInt(Math.random()*10)%3;
 		return hands[random];
